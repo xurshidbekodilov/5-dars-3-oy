@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.food{
+    background-color: black;
+    font-family: sans-serif;
+    padding-bottom: 37px;
+}
+.food__container{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+header{
+   display: flex;
+   align-items: center;
+   margin-left: 93px;
+}
+.food__header--a{
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38.13px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 622px;
+    margin-top: 49px;
+}
+.food__header--nav{
+    display: flex;
+    align-items: center;
+    gap: 81px;
+    margin-top: 51px;
+}
+.food__header--nav ul{
+    display: flex;
+    align-items: center;
+    gap: 81px;
+}
+.food__header--nav ul li{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.75s ease;
+}
+.food__header--nav ul li:hover{
+    transform: scale(120%);
+    text-decoration: underline;
+}
+.food__header--button{
+    width: 146px;
+    height: 55px;
+    border-radius: 20px;
+    padding: 15px, 25px, 15px, 25px;
+    border: 1px solid white;
+    background-color: white;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s ease;    
+}
+.food__header--button:hover{
+    transform: scale(120%);
+    background-color: black;
+    color: white;
+}
+main{
+    display: flex;
+    gap: 63px;
+}
+.main__title{
+    font-family: "Nunito Sans";
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 78px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 243px;
+    margin-left: 97px;
+}
+.main__description{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 78px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 96px;
+    margin-bottom: 34px;
+}
+.main__buttons{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 96px;
+}
+.main__buttons--white{
+    width: 146px;
+    height: 55px;
+    border-radius: 20px;
+    padding: 15px, 25px, 15px, 25px;
+    border: 1px solid white;
+    background-color: white;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s ease; 
+}
+.main__buttons--white:hover{
+    transform: scale(120%);
+    background-color: black;
+    color: white;
+}
+.main__buttons--black{
+    width: 146px;
+    height: 55px;
+    border-radius: 20px;
+    padding: 15px, 25px, 15px, 25px;
+    border: 1px solid white;
+    background-color: black;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: all 1s ease; 
+}
+.main__buttons--black:hover{
+    transform: scale(120%);
+    background-color: white;
+    color: black;
+}
+.main__image{
+    margin-top: 125.84px;
+    margin-right: 80px;
+    margin-bottom: 77.69px;
+}
+.food h5{
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29.96px;
+    text-align: center;
+    color: white;
+}
+.uzbmbuz{
+    margin-top: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+    padding: 10px 0px;
+}
+.uzbmbuz__container{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.uzbmbuz__language{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 620px;
+}
+.uzbmbuz__language label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.uzbmbuz__language label select{
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
+.uzbmbuz__language label img{
+    border-radius: 50%;
+}
+.uzbmbuz__callcenter{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    opacity: 80%;
+    margin-right: 40px;
+}
+.uzbmbuz__callcenter:nth-child(2){
+    text-align: right;
+}
+.uzbmbuz__button{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(67, 155, 131);
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 20px;
+    padding-right: 15px;
+}
+.uzbmbuz__button span{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.foriframe{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+.buttons__container{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.btn{
+    border: 1px solid #3498db;
+    background: none    ;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8x;
+    position: relative;
+    overflow: hidden;
+}
+.btn1, .btn2{
+    color: #3498db;
+}
+.btn3, .btn4{
+    color: #fff;
+}
+.btn1:hover, .btn2:hover{
+    color: #fff;
+}
+.btn3:hover, .btn4:hover{
+    color: #3498db;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+.btn1::before, .btn3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.btn2::before, .btn4::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+.btn3::before, .btn4::before{
+    height: 180%;
+}
+.btn1:hover::before,.btn2:hover::before{
+    height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before{
+    height: 0%;
+}
